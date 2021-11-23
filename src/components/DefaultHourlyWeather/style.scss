@@ -1,0 +1,82 @@
+.hourly-weather{
+    background-color: #CBF1F5;
+    margin-left: auto;
+    outline: solid 1px #71C9CE;
+    margin-right: auto;
+    border-radius: 18px;
+    margin-top: 2rem;
+    h3{
+        padding-top: 1.2rem;
+        text-align: left;
+        padding-left: 1.2rem;
+    }
+    .container{
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        margin-bottom: 2.2rem;
+        .hourly-container{
+            background-color: #71C9CE;
+            padding-left: 0;
+            height: 8rem;
+            width: 5rem;
+            border-radius: 18px;
+            padding-left: .6rem;
+            padding-right: .6rem;
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .hourly-weather{
+        width: 90%;
+    }
+    .container{
+        gap: 1.5rem;
+        width: 90%;
+    }
+    .feels-like{
+        font-size: 2.8rem;
+    }
+    img{
+        width: 2.8rem;
+    }
+}
+@media only screen and (min-width: 480px){
+    .hourly-weather{
+        width: 85%;
+    }
+    .container{
+        gap: 1.5rem;
+        width: 90%;
+    }
+    .feels-like{
+        font-size: 2.8rem;
+    }
+    img{
+        width: 2.8rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    .hourly-weather{
+        width: 65%;
+    }
+    .container{
+        gap: 1.7rem;
+    }
+    .feels-like{
+        font-size: 3.1rem;
+    }
+    img{
+        width: 3.1rem;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .container{
+        gap: 3rem;
+    }
+}

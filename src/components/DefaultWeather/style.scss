@@ -1,0 +1,91 @@
+.weather{
+    background-color: #CBF1F5;
+    margin-left: auto;
+    margin-right: auto;
+    outline: solid 1px #71C9CE;
+    border-radius: 18px;
+    margin-top: 2rem;
+    h3{
+        padding-top: 1.2rem;
+        text-align: left;
+        padding-left: 1.2rem;
+    }
+    .current-weather{
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 1rem;
+        padding-bottom: 3rem;
+        .feel-weather{
+            background-color: #71C9CE;
+            height: 8rem;
+            width: 5rem;
+            border-radius: 18px;
+            div{
+                font-size: 3.5rem;
+            }
+            span{
+                opacity: 0.6;
+                font-weight: bold;
+                font-size: .6rem;
+            }
+            img{
+                width: 3.2rem;
+                color: #fff;
+            }
+        }
+        .detailed-values{
+            table{
+                height: 9rem;
+                text-align: start;
+                
+                td{
+                    padding-left: 2rem;
+                    border-bottom: 1px solid #000;
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 480px){
+    .weather{
+        width: 90%;
+    }
+    .current-weather{
+        width: 70%;
+    }
+    td{
+        font-size: .7rem;
+    }
+}
+@media only screen and (min-width: 480px){
+    .weather{
+        width: 85%;
+    }
+    .current-weather{
+        width: 75%;
+    }
+    td{
+        font-size: .7rem;
+    }
+}
+@media only screen and (min-width: 768px){
+    .weather{
+        width: 65%;
+    }
+    .current-weather{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    h3{
+        font-size: 1.5rem;
+    }
+    .current-weather{
+        width: 60%;
+    }
+    td{
+        font-size: 1rem;
+    }
+}

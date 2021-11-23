@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 5rem;
+}
+
+html, body{
+  height: 100vh;
+  background-color: #E3FDFD;
+}
+
+*{
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
